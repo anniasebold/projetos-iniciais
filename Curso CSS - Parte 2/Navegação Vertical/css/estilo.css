@@ -1,0 +1,34 @@
+/*Barra de Navegação Vertical*/
+* {
+	font-family: Times;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+ul a {
+	width: 200px;
+	height: 40px;
+	display: block;
+	color: #000;
+	text-decoration: none;
+	text-indent: 40px;
+	/*Altura da letra é do tamanho da altura da imagem*/
+	line-height: 40px; 
+	background: #f7b600 url(../imagens/menu.png) no-repeat left bottom;
+}
+
+ul a:hover {
+	background-position: right bottom;
+	background-color: #f99200;
+	color: #FFF;
+}
+
+#home #navegacao-lateral .home a,  #sobre #navegacao-lateral .sobre a, #servicos #navegacao-lateral .servicos a, #noticias #navegacao-lateral .noticias a, #contato #navegacao-lateral .contato a {
+	background-position: right bottom;
+	background-color: #f99200;
+	color: #FFF;
+}

@@ -1,0 +1,425 @@
+/* Estrutura */
+
+body {
+	background: #E6E6E6 url(../img/fundo.png) repeat-x;
+	font: 1rem "Lucida Grande", "Lucida Sans Unicode", Arial, sans-serif;
+}
+
+#container {
+	width: 1080px;
+	margin: 0 auto;
+}
+
+a:link, a:active, a:visited {
+	color:#1C2143;
+	text-decoration: none;
+}
+
+nav a:link, a:active, a:visited {
+	color: #5DCAD1;	/*azul mais claro*/
+	text-decoration: none;
+}
+
+nav a:hover {
+	color: #FFFF;
+}
+
+/* LOGO */
+
+#logo h1 {
+	float: left;
+}
+
+#logo a {
+	width: 224px;
+	height: 72px;
+	text-indent: -9999px; /*pra ir pra fora da tela*/
+	display: block;
+	background: url(../img/logozinha.png) no-repeat;
+}
+
+/* BARRA DE NAVEGAÇÃO */
+header {
+	padding: 1.5rem 0;
+	height: 3rem;
+	background: #1C2143; /*azul mais escuro*/
+
+}
+
+nav ul {
+	list-style: none;
+	margin: 1.5rem;
+	float: right;
+}
+
+nav ul li {
+	float: left;
+}
+
+nav ul li a:link {
+	font-size: 0.9rem;
+	display: block;
+	margin-right: 1.5rem;
+	padding-bottom: 0.2rem;
+	text-transform: uppercase;
+}
+/* LINHA EMBAIXO DO LINK */
+nav ul li a:hover {
+	border-bottom: 1px solid #F3CD74;
+}
+
+/* PRINCIPAL */
+#principal {
+	margin-top: 2.8125rem; /*45px*/
+}
+
+#conteudo {
+	width: 44.375rem;
+	/*710px */
+	float: left;
+	margin-bottom: 1.25rem; /*20px*/
+}
+
+section#capa img {
+	width: 44.375rem;
+	/*710px*/
+	height: 19.375rem;
+	/*310px*/
+}
+
+/* CONTEUDO LATERAL */
+
+section#formandos img {
+	width: 21.875rem;
+	/*350px*/
+	height: 20rem;
+	/*320px*/
+}
+
+aside {
+	width: 21.875rem;
+	/*350px*/
+	float: right;
+	background: #5DCAD1;
+	padding-bottom: 1.875rem;
+	/*30px*/
+	margin-bottom: 1.25rem;
+	/*20px*/
+}
+
+/*GALERIA*/
+
+section#galeria {
+	padding: 0 1.6875rem 0 1.6875rem;
+	/*0 27px 0 27px*/
+}
+
+section#galeria a {
+	display: block;
+	background: url(../img/fundo-foto.png) no-repeat;
+	float: left;
+	padding: 1.0625rem 0.9375rem 1.0625rem 0.9375rem;
+	/*17px 15px 17px 15px*/
+	margin: 0.625rem 0 0 1.25rem;
+	/*10px 0 0 20px*/
+}
+
+section#galeria img {
+	margin-left: 0.125rem;
+	/*2px*/
+	margin-top: 0.1875rem;
+	/*3px*/
+}
+
+/*CONFIGURAÇÃO POST*/
+article#div {
+	float: left;
+	width: 19.375rem;
+	/*310px*/
+	margin: 0.9375rem 0 0 1.5625rem;
+	/*15px 0 0 25px*/
+}
+
+h3 {
+	color: #1C2143;
+	font-size: 1rem;
+	margin-bottom: 0.9375rem;
+	/*15px*/
+	text-transform: uppercase;
+}
+
+h4 {
+	color: #1C2143;
+	text-transform: uppercase;
+	padding-bottom: 0.1875rem;
+	/*3px*/
+	margin-bottom: 0;
+}
+
+/*RODAPÉ*/
+footer {
+	clear: both;
+	padding: 1.25rem 0 1.875rem 0;
+	/* 20px 0 30px 0*/
+	text-align: center;
+	background: url(../img/fundo-rodape.png) no-repeat top;
+}
+
+footer>p a {
+	padding: 0.125rem 0.625;
+	/*2px 10px*/
+	margin: 0.4375rem;
+	/* 7px */
+}
+
+
+/*PAGINA 2 - CURSOS*/
+section#cursos {
+	background: white;
+	padding: 0.9375rem;
+	/*15px*/
+}
+
+section#cursos h1 {
+	background: #808080;
+	padding: 0.3125rem;
+	/*5px*/
+	border-radius: 0.3125rem;
+	/*5px*/
+	text-align: center;
+	color: #03134C;
+	text-transform: uppercase;
+}
+
+section#cursos h2 {
+	border-bottom: 0.3125rem solid #F3CD74;
+	/*5px*/
+	color: #5DCAD1;
+	text-align: center;
+	margin: 1.25rem 1.25rem 1.25rem 1.25rem;
+	/*20px*/
+}
+
+section#cursos div {
+	background: #1C2143;
+	display: inline-block;
+	margin: 0.625rem 1.25rem 0.625rem 0;
+	/*10 20 10 0*/
+	padding: 0.8rem;
+	width: 40%;
+}
+
+/* PAGINA 3 - TIME ACADEMICO */
+#time {
+	background-color: white;
+	padding: 0.9375rem;
+	/* 15px */
+}
+
+#time h1 {
+	background: #808080;
+	border-radius: 0.3125rem;
+	/*5px*/
+	text-align: center;
+	color: #03134C;
+	text-transform: uppercase;
+}
+
+#time h2 {
+	color: #1C2143;
+	margin: 0.625rem 0.625rem 0.3125rem 0.3125rem;
+	/*10px 10px 5px 5px*/
+}
+
+#time #lomba{
+	margin: 2.3% 25%;
+}
+
+#time div {
+	width: 40%;
+	text-align: center;
+	display: inline-block;
+	margin: 10px;
+}
+
+#time img {
+	width: 250px;
+	border-radius: 50%;
+}
+
+/* PAGINA 4 - CONTATO */
+section#formulario h1 {
+	background: #808080;
+	padding: 0.3125rem;
+	/*5px*/
+	border-radius: 0.3125rem;
+	/*5px*/
+	text-align: center;
+	color: #03134C;
+	text-transform: uppercase;
+}
+
+#formulario {
+	padding: 0.5rem;
+	/*8px*/
+	background: white;
+}
+
+#formulario textarea {
+	width: 40%;
+	height: 12.5rem;
+	/* 200px */
+	margin: -2px 5px 2px 5px;
+}
+
+#formulario select {
+	margin: -2px 5px 2px 5px;
+}
+
+#formulario #email {
+	width: 16.875rem;
+	/* 270px */
+	margin: 5px;
+}
+
+#formulario h2 {
+	color: #1C2143;
+	margin: 5px;
+	/*10px 10px 5px 5px*/
+}
+
+#formulario input {
+	margin: 0.625rem 0.625rem 0.3125rem 0.3125rem;
+	/*10px 10px 5px 5px*/
+}
+
+#contato-aside {
+	padding: 0.625rem;
+	/*10px*/
+	text-transform: uppercase;
+}
+
+#contato-aside a {
+	color: #1C2143;
+}
+
+/* PAGINA 5 - PROCESSO*/
+
+section#processo {
+	background-color: white;
+	padding: 0.9375rem;
+	/* 15px */
+}
+
+#processo div {
+	display: inline-block;
+	width: 16.25rem;
+	/* 260px */
+	height: 260px;
+	margin: 1.5625rem;
+
+}
+
+#processo img {
+	width: 9.375rem;
+	/* 150px */
+
+}
+
+#processo h2{
+	background: #808080;
+	padding: 0.3125rem;
+	/*5px*/
+	border-radius: 0.3125rem;
+	/*5px*/
+	text-align: center;
+	color: #03134C;
+	text-transform: uppercase;
+}
+
+/* RESPONSIVIDADE */
+/*768px – Tablets no formato retrato, como o iPad*/
+
+@media screen and (max-width:768px) {
+
+#container {
+	width: 768px;
+}
+
+header {
+	width: 760px;
+	padding: 1.5rem 0;
+	height: 3rem;
+	background: #1C2143; /*azul mais escuro*/
+}
+
+nav ul {
+	list-style: none;
+	margin: 1.5rem;
+	float: right;
+}
+
+nav ul li a:link {
+	font-size: 10px;
+	display: block;
+	margin-right: 5px;
+	padding-bottom: 0.2rem;
+	text-transform: uppercase;
+}
+/* LINHA EMBAIXO DO LINK */
+nav ul li a:hover {
+	border-bottom: 1px solid #F3CD74;
+}
+
+aside {
+	width: 21.875rem;
+	/*350px*/
+	background: #5DCAD1;
+	float: left;
+	position: relative;
+	margin: 20px 215px;
+}
+
+}
+
+@media screen and (max-width:414px) {
+
+#container {
+	width: 414px;
+}
+
+header {
+	width: 414px;
+	padding: 1.5rem 0;
+	height: 3rem;
+	background: #1C2143; /*azul mais escuro*/
+}
+
+nav ul {
+	list-style: none;
+	margin: 1.5rem;
+	float: right;
+}
+
+nav ul li a:link {
+	font-size: 10px;
+	display: block;
+	margin-right: 5px;
+	padding-bottom: 0.2rem;
+	text-transform: uppercase;
+}
+/* LINHA EMBAIXO DO LINK */
+nav ul li a:hover {
+	border-bottom: 1px solid #F3CD74;
+}
+
+aside {
+	width: 21.875rem;
+	/*350px*/
+	background: #5DCAD1;
+	float: left;
+	position: relative;
+	margin: 20px 215px;
+}
+
+}

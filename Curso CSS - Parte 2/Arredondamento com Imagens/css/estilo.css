@@ -1,0 +1,31 @@
+/* Arrendondamento com Imagens */
+
+.caixa {
+    width: 400px;
+    background: #DEDEDE url(../img/fundo-arredondamento.png) repeat-y;
+}
+
+.caixa h2 {
+    padding: 10px 20px 0 20px;
+    background: url(../img/topo2.png) no-repeat left top; 
+}
+
+.caixa p {
+    padding: 0 20px;
+    margin-bottom: 0;
+}
+
+.caixa .ultimo {
+    background: url(../img/baixo2.png) no-repeat left bottom;
+    width: 400px;
+    height: 24px;
+}
+
+/* .caixa p {
+    padding: 0 20px 20px 20px;
+    background: url(../img/baixo2.png) no-repeat left bottom;
+}
+
+.caixa h2{
+    padding: 10px 20px 0 20px;
+} */

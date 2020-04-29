@@ -1,0 +1,38 @@
+/* Estilizando Formulários */
+
+body {
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
+}
+
+fieldset {
+    padding: 1em;
+    border: 1px solid #CCC;
+    background: #F8F8F8;
+    margin: 1em 0;
+}
+
+legend {
+    font-weight: bold;
+}
+
+label {
+    /* Pelo LABEL ser um elemento inline apenas alterando o seu display é possível exibi-lo em cima da caixa de texto */
+    display: block;
+    cursor: pointer;
+}
+
+
+/* SELECIONAR um atributo específico do INPUT */
+input[type="text"] {
+    width: 20em;
+    margin: 0 0 1em 0;
+}
+
+input[type="radio"] {
+    margin: 0 0 1em 0;
+}
+
+textarea {
+    width: 20em;
+    height: 10em;
+}

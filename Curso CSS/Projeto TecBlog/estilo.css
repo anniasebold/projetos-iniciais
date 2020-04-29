@@ -1,0 +1,138 @@
+/* Limpar formatações padrão */
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 1em; /* Equivale a 16px */
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: #e6e6e6;
+}
+
+/*
+**** LAYOUT ****
+*/
+
+#area-cabecalho {
+	background: #f7b600;
+	padding: 15px;
+	text-align: center;
+}
+
+#area-menu, #area-logo {
+	padding: 10px;
+}
+
+#area-principal {
+	width: 920px; /* largura padrão para dispositivos modernos, bastante utilizado nos mercados */
+	margin: 0 auto; /* conteúdo ficará centralizado, pois a margem ESQUERDA/DIREITA está "auto" */
+	padding: 15px; /* será aplicado na area principal e lateral */
+
+}
+
+#area-postagens {
+	width: 660px;
+	float: left; /* será "empurrado" p/ esquerda*/
+
+}
+
+#area-lateral {
+	width: 240px;
+	float: right; /* será "empurrado" p/ direita*/
+
+}
+
+.postagem {
+	padding: 20px;
+	margin-bottom: 20px;
+	background: white;
+}
+
+.conteudo-lateral {
+	background: white;
+	padding: 10px;
+	margin-bottom: 20px;
+
+}
+
+.postagem-lateral {
+	font-size: 0.8em;
+	padding: 5px;
+}
+
+.titulos-laterais {
+	color: #565656;
+	background: #CCC;
+	padding: 5px;
+	margin-bottom: 3px;
+}
+
+#rodape {
+	clear: both;
+	text-align: center;
+	padding: 15px;
+	background: #CCC;
+}
+
+/*
+**** FORMATAÇÕES DO MENU ****
+*/
+
+/* utiliza-se o ID dps o LINK para usar o SELETOR  */
+#area-cabecalho a:link, #area-cabecalho a:visited {
+	color: #FFF;
+	padding: 8px 12px;
+}
+
+#area-cabecalho a:hover {
+	color: #f7b600;
+	background: #FFF;
+	padding: 8px 12px;
+	text-decoration: none;
+}
+
+/*
+**** FORMATAÇÕES EM GERAL ****
+*/
+
+/* FORMATÇÃO DOS LINKS EM GERAL */ 
+
+a {
+	text-decoration: none;
+}
+
+a:link, a:visited {
+	color: #f7b600;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a {
+ 	font-size: 1.2em;
+}
+
+h1 {
+	color: #4e4e4e;
+	font-size: 2.5em;
+}
+
+h2 {
+	color: #f7b600;
+}
+
+.branco {
+	color: white;
+}
+
+.data-postagem {
+	display: block;
+	font-size: 0.8em;
+	border-bottom: 1px solid #f4f4f4;
+	padding-bottom: 8px;
+	margin-bottom: 8px;
+}
+

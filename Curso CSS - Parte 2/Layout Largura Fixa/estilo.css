@@ -1,0 +1,72 @@
+/* LAYOUTS */
+
+body {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    background: #F2F2F2;
+}
+
+#container {
+    width: 720px;
+    margin: 0 auto;
+    background: #FFF;
+}
+
+#marca {
+    height: 100px;
+    background: #9E9E9E;
+    text-align: center;
+    line-height: 100px;
+}
+
+#conteudo {
+    width: 520px;
+    float: right;
+}
+
+#conteudo-principal {
+    width: 300px;
+    float: left
+}
+
+#conteudo-secundario {
+    width: 160px;
+    float: right;
+    background: #D1D1D1;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#navegacao {
+    width: 180px;
+    float: left;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #D1D1D1;
+}
+
+#rodape {
+    clear: both;
+    background: #C4C4C4;
+    padding: 5px;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+ul a {
+    width: 150px;
+    height: 40px;
+    display: block;
+    color: #000;
+    text-decoration: none;
+    line-height: 40px;
+    background: #9E9E9E url(seta.png) no-repeat left;
+}
+
+li {
+    padding: 5px;
+    text-align: center;
+}

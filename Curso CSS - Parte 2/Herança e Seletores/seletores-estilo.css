@@ -1,0 +1,87 @@
+ /* Seletor Universal */
+/*Seleciona todos os elementos da página*/
+* {
+	text-align: center;
+}
+
+/*Seletor de texto*/
+/*Seleciona os elementos pelo tipo*/
+h1 {
+	text-align: center;
+}
+
+/* Seletor de Classe */
+/* Seleciona um elemento cujo atributo class tem o valor especificado depois do ponto */
+
+/*Ao definir dessa maneira só poderá utilizar a classe verde dentro de parágrafos, pois o seletor que aplica uma formatação de classe à um determinado elemento */
+p.verde {
+	color: green;
+}
+
+/* Seletor de ID */
+/* Seleciona um elemento cujo atributo ID tem o valor especificado após o símbolo de cerquilha ou jogo da velha */
+
+#cabecalho {
+	text-align: center;
+}
+
+/* Seletor de filho */
+/* Seleciona um elemento que é filho direto de outro */
+/* Seleciona quaisquer elementos <a> que são filhos <li> (mas não outro elementos <a> na página) */
+/* O sinal de ">" siginifica "que é filho de"*/
+/* O elementos tem de estar DIRETAMENTE ligado a outro para se tornar filho deste elemento */
+
+li>a {
+	color: green;
+	padding: 15px;
+	font-size: 1.8em;
+	text-decoration: none;
+}
+
+a {
+	color: red;
+}
+
+/* Seletor de descendente */
+/* Seleciona um elemento que é descendente de outro elemento especificado (e não apenas filho direto desse) */
+/* No caso abaixo seleciona quaisquer elementos <a> que residem dentro de um elemento <p>, mesmo se houver outros elementos aninhados entre eles*/
+/* Pode selecionar um elemento e aplicar formatações mesmo que ele não seja filho direto deste*/
+
+p a:link {
+	color: red;
+	padding: 20px;
+	font-size: 2rem;
+	text-decoration: none;
+}
+
+p a:hover {
+	color: white;
+	background: green;
+	padding: 20px;
+	font-size: 2rem;
+	text-decoration: none;
+}
+
+/* Seletor de irmão adjacente */
+/* Seleciona um elemento que é o irmão próximo de outro */
+/* Seleciona o primeiro elemento <p> depois de qualquer elemento <h1> (mas não outros elementos <p>)*/
+/* Só será aplicado ao elemento <p> após o elemento <h1> */
+
+h1+p {
+	font-size: 2rem;
+	padding: 5px;
+	border: 1px solid red;
+}
+
+/* Seletor de irmão geral */
+/* Seleciona um elemento que é um irmão de outro, embora não precise ser o elemento diretamente precendente */
+/* Se houvesse dois elementos <p> que fossem irmãos de um elemento <h1>, essa regra se aplicaria aos dois*/
+
+h1~p{
+	color: blue;
+	border: 1px solid red;
+	padding: 15px;
+	font-size: 1.2rem;
+}
+/* O irmão precisa estar após o <h1> se for colocado antes, nada acontece */
+/* É parecido com "irmão adjacente" porém ao invés de aplicar só em UM elemento após o <h1>, será aplicado a formatação nos demais */
